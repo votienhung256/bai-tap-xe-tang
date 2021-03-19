@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Xe tăng</title>
+</head>
+
+<body>
+    <div style="border: 1px solid black; height: 190px; width: 190px; background-color: black;">
+        <img id="tank" src="tank.png" width="19" height="19" style="position: relative; top: 0px; left: 0px;">
+    </div>
+    HP:<div id="hp" style="background-color: green">20</div>
+    <button onclick="getHit()">Get Hit</button>
+    <table>
+        <tr>
+            <td></td>
+            <td><input type="button" value="⇧" onclick="moveUp()"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="⇦" onclick="moveLeft()"></td>
+            <td></td>
+            <td><input type="button" value="⇨" onclick="moveRight()"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" value="⇩" onclick="moveDown()"></td>
+            <td></td>
+        </tr>
+    </table>
+    <script src="tank.js"></script>
+</body>
+</body>
+
+</html>
